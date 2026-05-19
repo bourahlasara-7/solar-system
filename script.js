@@ -122,47 +122,85 @@ let index = 3;
 
 
 
+
 function showPlanet(){
 
-   
-    planet.style.opacity = "0";
 
-    setTimeout(() => {
+planet.style.opacity = "0";
 
-        planet.src = planets[index].image;
-        planetName.innerHTML = planets[index].name;
-        planetText.innerHTML = planets[index].text;
 
-       
-        let l1 = (index - 1 + planets.length) % planets.length;
-        let l2 = (index - 2 + planets.length) % planets.length;
-        let l3 = (index - 3 + planets.length) % planets.length;
+setTimeout(()=>{
 
-      
-        if (l1 < 0) l1 += planets.length;
-        if (l2 < 0) l2 += planets.length;
-        if (l3 < 0) l3 += planets.length;
 
-        
-        left1.src = planets[l1].image;
-        left2.src = planets[l2].image;
-        left3.src = planets[l3].image;
+planet.src =
+planets[index].image;
 
-       
-        let r1 = (index + 1) % planets.length;
-        let r2 = (index + 2) % planets.length;
-        let r3 = (index + 3) % planets.length;
 
-       
-        right1.src = planets[r1].image;
-        right2.src = planets[r2].image;
-        right3.src = planets[r3].image;
+planetName.innerHTML =
+planets[index].name;
 
-     
-        planet.style.opacity = "1";
 
-    }, 200);
+planetText.innerHTML =
+planets[index].text;
+
+
+
+
+
+left1.src =
+planets[
+(index - 3 + planets.length)
+% planets.length
+].image;
+
+
+left2.src =
+planets[
+(index - 2 + planets.length)
+% planets.length
+].image;
+
+
+left3.src =
+planets[
+(index - 1 + planets.length)
+% planets.length
+].image;
+
+
+
+
+
+right1.src =
+planets[
+(index + 1)
+% planets.length
+].image;
+
+
+right2.src =
+planets[
+(index + 2)
+% planets.length
+].image;
+
+
+right3.src =
+planets[
+(index + 3)
+% planets.length
+].image;
+
+
+
+planet.style.opacity = "1";
+
+
+},200);
+
 }
+
+
 
 
 
