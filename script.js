@@ -107,7 +107,7 @@ text:"Neptune is the farthest major planet from the Sun and has the strongest wi
 
 {
 name:"Pluto",
-image:"img/p5.jpg",
+image:"img/P5.jpg",
 text:"Pluto is a dwarf planet located in the Kuiper Belt. It was once considered the ninth planet."
 }
 
