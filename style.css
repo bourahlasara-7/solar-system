@@ -62,6 +62,9 @@ h1 {
 }
 
 
+
+
+
 header {
     position: fixed;
     top: 0;
@@ -560,12 +563,9 @@ footer {
    height: auto;     
 }
 
-.good img
-{
-     flex-direction: column;
 
-}
-.good{  max-width:100%;
+
+.good{  width:100%;
    height: auto;  
 
 }
