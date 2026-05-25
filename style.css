@@ -530,4 +530,27 @@ footer {
         font-size: 15px;
         line-height: 1.7;
     }
+
+
+.h{
+        height: auto;
+        padding: 60px 15px;
+    }
+
+.h h2{
+     font-size: 30px;
+}
+
+.h p {
+   
+    font-size: 15px;
+        line-height: 1.7;
+    
+
+}
+
+
+
+
+
 }
