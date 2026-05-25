@@ -552,13 +552,12 @@ footer {
 
 
 .cool{
-    display:block;
-    gap:20px; 
+   flex-direction: column;
 }
 
 .cool img{
-    width: 250px;
-        height: 300px;
+    width:100%;
+        
 }
 
 
