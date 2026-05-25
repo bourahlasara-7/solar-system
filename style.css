@@ -551,7 +551,10 @@ footer {
 }
 
 
-
+.cool{
+    display:block;
+    gap:20px; 
+}
 
 .cool img{
     width: 250px;
