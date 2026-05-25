@@ -20,27 +20,37 @@ h1 {
 
 .h{
 
+  
    
-margin-top: 90px;
-    width: 99%;
-    height:flex;
+    padding: 60px ;
+    margin: 90px auto;
+    overflow: visible;
+   margin-top: 90px;
+    width: 90%;
+    border-radius: 40px;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(12px);
     box-shadow: 0 0 80px rgba(76, 201, 240, 0.15);
-   
+    margin-bottom: 90px;
+
+
+
+
+
+    
 }
 
 .h h2{
     padding: 3%;
-      font-size: 40px;
+      font-size: 45px;
     margin-bottom: 25px;
     line-height: 1.1;
 }
 
 .h p {
     padding: 3%;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 2%;
     line-height: 1.9;
     color: #d6d6d6;
@@ -128,8 +138,8 @@ nav a:hover {
 }
 
 
-.planets-section,
-.planets-slider {
+.planets-section,.planets-slider {
+
     min-height: 100vh;
     display: flex;
     justify-content: center;
