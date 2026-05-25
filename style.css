@@ -560,7 +560,11 @@ footer {
    height: auto;     
 }
 
+.good img
+{
+     flex-direction: column;
 
+}
 .good{  max-width:100%;
    height: auto;  
 
